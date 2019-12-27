@@ -1,0 +1,75 @@
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #202020;
+  margin:0px;
+}
+
+
+
+#board {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  outline: 1px lightgray solid;
+  font-size: 0px;
+  display: table;
+  position: relative;
+  border-radius: 0px;
+  margin-top: 18px;
+  width: auto;
+}
+
+tr, tbody {
+  height: 50px;
+  box-sizing: border-box;
+  overflow: auto;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+td{
+  box-sizing: border-box;
+  border: 1px solid gray;
+  padding: 0px;
+  margin: 0px;
+  width: 50px;
+  height:50px;
+}
+
+
+.block{
+  box-sizing: border-box;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  background-size: 450px;
+  transition: box-shadow 0.1s ease-in-out;
+  border: 0px white solid;
+  position: absolute;
+  z-index: 500;
+  width: 50px;
+  height: 50px;
+
+}
+
+
+#puzzle
+{
+  width: 50%;
+  float:right;
+  background: #EEF;
+  height: 100vh;
+  position: relative;
+}
+
+#pieces
+{
+  width: 50%;
+  float:left;
+  height: 100vh;
+  position: relative;
+}
